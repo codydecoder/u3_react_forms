@@ -114,7 +114,7 @@ return (
   <form>
     <label htmlFor="issueType">Type of Issue:</label>
     <select id="issueType">
-      <option value="" disabled selected>Select your issue</option>
+      <option value="" disabled defaultValue>Select your issue</option>
       <option value="outage">Service Outage</option>
       <option value="billing">Billing</option>
       <option value="cancel">Cancel Service</option>
